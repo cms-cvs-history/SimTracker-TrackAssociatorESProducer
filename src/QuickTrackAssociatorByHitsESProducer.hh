@@ -27,6 +27,6 @@ private:
 	edm::ParameterSet config_;
 };
 
-DEFINE_FWK_EVENTSETUP_MODULE(QuickTrackAssociatorByHitsESProducer);
+//do in SealModule instead DEFINE_FWK_EVENTSETUP_MODULE(QuickTrackAssociatorByHitsESProducer);
 
 #endif // end of ifndef slhctools_QuickTrackAssociatorByHitsESProducer_h
